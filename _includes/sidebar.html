@@ -19,8 +19,12 @@
 
   {% include contact.html %}
 
+  {% if sidebar.experience %}
+    {% include experience-sidebar.html %}
+  {% endif %}
+
   {% if sidebar.education %}
-    {% include education.html %}
+    {% include education-sidebar.html %}
   {% endif %}
 
   {% include language.html %}

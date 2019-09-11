@@ -102,12 +102,12 @@ p {
         margin-top: 0;
         margin-bottom: 15px;
     }
-    .degree {
+    .job-title, .degree {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 5px;
     }
-    .education-container {
+    .experience-container, .education-container {
         .item {
             margin-bottom: 15px;
             &:last-child {
@@ -170,7 +170,7 @@ p {
         margin-bottom: 60px;
     }
 
-    .experiences-section, .educations-section {
+    .experience-section, .education-section {
         .item {
             margin-bottom: 30px;
         }
